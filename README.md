@@ -88,8 +88,28 @@ Tüm değerler test setindedir (`results.csv`).
 
 ## 7. Nasıl Çalıştırılır
 
-1. Kaggle'dan CSV dosyalarını indirip `data/` klasörüne koyun: `orders.csv`, `order_products__prior.csv`, `order_products__train.csv`, `products.csv`, `aisles.csv`, `departments.csv` (boyut nedeniyle zip'e dahil edilmemiştir).
-2. Ana klasörde:
+
+Veri bu depoya dahil değildir (dosyalar çok büyük ve veri Instacart'a aittir).
+Kaggle'dan indirin: https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis
+
+Gerekli dosyaları `data/` klasörüne koyun:
+
+- `orders.csv`
+- `order_products__prior.csv`
+- `order_products__train.csv`
+- `products.csv`
+- `aisles.csv`
+- `departments.csv`
+
+Beklenen yapı:
+
+    data/
+    ├── orders.csv
+    ├── order_products__prior.csv
+    ├── order_products__train.csv
+    ├── products.csv
+    ├── aisles.csv
+    └── departments.csv
 
 ```
 pip install -r requirements.txt
